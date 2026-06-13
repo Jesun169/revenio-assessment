@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AuthProvider from "@/context/AuthContext";
-import Hero from "@/components/Hero";
+import { Toaster } from "react-hot-toast";
 
 export const metadata = {
   title: "ProductHub",
@@ -20,6 +20,10 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Footer />
+          <Toaster
+            position="top-right"
+            reverseOrder={false}
+          />
         </AuthProvider>
       </body>
     </html>
