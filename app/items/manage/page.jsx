@@ -106,7 +106,7 @@ export default function ManagePage() {
 
                     <div className="flex justify-between items-start mb-3">
 
-                      <h2 className="text-xl font-bold">
+                      <h2 className="text-xl text-black font-bold">
                         {product.title}
                       </h2>
 

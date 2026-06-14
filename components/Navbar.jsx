@@ -190,7 +190,7 @@ export default function Navbar() {
         {/* Mobile Menu */}
 
         {menuOpen && (
-          <div className="md:hidden pb-5 flex flex-col gap-4">
+          <div className="md:hidden pb-5 flex flex-col gap-4 text-black">
 
             <Link href="/">
               Home

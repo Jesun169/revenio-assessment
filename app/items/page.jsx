@@ -70,7 +70,7 @@ export default function ItemsPage() {
                 onChange={(e) =>
                   setSearch(e.target.value)
                 }
-                className="p-3 rounded-xl border focus:ring-2 focus:ring-blue-500 outline-none"
+                className="p-3 rounded-xl border focus:ring-2 focus:ring-blue-500 outline-none text-black"
               />
 
               <select

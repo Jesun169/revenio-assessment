@@ -10,8 +10,8 @@ export default function Home() {
     <main className="relative overflow-hidden">
 
       <Hero />
-      <Features />
       <FeatureProducts />
+      <Features />
       <WhyChooseUs />
       <Testimonials />
 
